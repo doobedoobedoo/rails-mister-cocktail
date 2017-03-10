@@ -15,4 +15,3 @@ list=[]
 "#{cocktails_list["drinks"].each do |el|
   Ingredient.create(name: "#{el["strIngredient1"]}")
 end}"
-
